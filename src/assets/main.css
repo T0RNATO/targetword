@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Manrope:wght@200;400&display=swap');
+
+:root {
+    --white: #efefef;
+    --bg: #343434;
+}
+
+body {
+    background: var(--bg);
+    padding: 0;
+    margin: 0;
+    overscroll-behavior: none;
+}
+
+* {
+    color: var(--white);
+    font-family: 'Manrope', sans-serif;
+}
+
+h1, h2, button {
+    font-family: 'Kanit', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+button, h2 {
+    font-size: 30px;
+}
